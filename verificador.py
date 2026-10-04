@@ -15,8 +15,15 @@ def host_responde(host):
     return resultado.returncode == 0
 
 
+online = 0
+offline = 0
+
 for host in ler_hosts("hosts.txt"):
     if host_responde(host):
         print(f"[ONLINE]  {host}")
+        online += 1
     else:
         print(f"[OFFLINE] {host}")
+        offline += 1
+
+print(f"\nResumo: {online} online, {offline} offline")
