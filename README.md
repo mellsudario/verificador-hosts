@@ -15,7 +15,7 @@ Script em Python que lê uma lista de hosts (IPs ou domínios) de um arquivo de 
 1. Clone o repositório:
 
 ```
-git clone https://github.com/SEU-USUARIO/verificador-hosts.git
+git clone https://github.com/mellsudario/verificador-hosts.git
 ```
 
 2. Entre na pasta do projeto:
